@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000E7AF8208702BA0052ECDD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000E7AF7208702BA0052ECDD /* Launch Screen.storyboard */; };
 		54B47100DCB7FF75F1C8AFDA /* Pods_RSSReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1E6ADF484540F4F8CADB19 /* Pods_RSSReaderTests.framework */; };
 		6CFACB99C2B4FFFA726BC7B6 /* Pods_RSSReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ABA90912FE907A434E52364 /* Pods_RSSReader.framework */; };
 		AA8AA144194362C900C3888B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8AA143194362C900C3888B /* logo.png */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000E7AF7208702BA0052ECDD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		1871BA77215C5DA5B772987C /* Pods-RSSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReader/Pods-RSSReader.release.xcconfig"; sourceTree = "<group>"; };
 		2ABA90912FE907A434E52364 /* Pods_RSSReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSSReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82735FE763C4A9A04A6C078E /* Pods-RSSReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReaderTests/Pods-RSSReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				AAC02B1A193DEEFE003997F3 /* ViewController.swift */,
 				AAC02B1C193DEEFE003997F3 /* Main.storyboard */,
 				AAC02B1F193DEEFE003997F3 /* Images.xcassets */,
+				000E7AF7208702BA0052ECDD /* Launch Screen.storyboard */,
 				AAC02B16193DEEFE003997F3 /* Supporting Files */,
 				AAC02B35193DF2B8003997F3 /* RSSReader-Bridging-Header.h */,
 			);
@@ -234,6 +237,7 @@
 			files = (
 				AA8AA144194362C900C3888B /* logo.png in Resources */,
 				AAC02B1E193DEEFE003997F3 /* Main.storyboard in Resources */,
+				000E7AF8208702BA0052ECDD /* Launch Screen.storyboard in Resources */,
 				AAC02B20193DEEFE003997F3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
